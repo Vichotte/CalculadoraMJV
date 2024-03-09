@@ -2,8 +2,21 @@ package PRACTICA02;
 
 public class PR02_Resta {
 
+    /**
+     * @author Marcos Jimenez Vicho
+     * @version 1.0
+     */
+
     private double operando1;
     private double operando2;
+
+    /**
+     *
+     * @param operando1 Es el operando numero 1 que el usuario mete en {@link PR02_Calculadora}
+     * @param operando2 Es el operando numero 2 que el usuario mete en {@link PR02_Calculadora}
+     * @return Devuelve el resultado de la resta
+     * @serialData Hace una simple resta con los parametros pasados por consola al usuario
+     */
 
     public static double resta(double operando1, double operando2){
 
