@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class PR02_Calculadora {
 
+    /**
+     * @author Marcos Jimenez Vicho
+     * @version 1.0
+     */
+
 
       static Scanner pide = new Scanner(System.in);
 
@@ -35,6 +40,9 @@ public class PR02_Calculadora {
 
             //-----------------------------------------------------------------------
 
+            /**
+             * @param opcion1 La opcion numerica que el usuario introdujo anteriormente
+             */
 
 
             switch(opcion1){
@@ -47,14 +55,21 @@ public class PR02_Calculadora {
                     System.out.println("Okay, vamos a SUMAR");
                     PR02_Suma Suma = new PR02_Suma();
 
-
+                    /**
+                     * @param operando1 El primer operando que el usuario introdujo en la suma
+                     */
 
                     System.out.println("Indica el primer operando");
                     System.out.print("> ");
                     operando1 = pide.nextDouble();
                     Suma.setOperando1(operando1);
 
-
+                    /**
+                     * @param operando2 El segundo operando que el usuario introdujo en la suma
+                     *
+                     * Las sumas se realizaran en la clase {@link PR02_Suma }
+                     * Las pruebas de esa clase se realizaran en {@link PR02_SumaTest}
+                     */
 
 
                     System.out.println("Indica el segundo operando");
@@ -70,14 +85,21 @@ public class PR02_Calculadora {
                     System.out.println("Okay, vamos a RESTAR");
                     PR02_Resta Resta = new PR02_Resta();
 
-
+                    /**
+                     * @param operando1 El primer operando que el usuario introdujo en la resta
+                     */
 
                     System.out.println("Indica el primer operando");
                     System.out.print("> ");
                     operando1 = pide.nextDouble();
                     Resta.setOperando1(operando1);
 
-
+                    /**
+                     * @param operando2 El segundo operando que el usuario introdujo en la resta
+                     *
+                     * Las restas se realizaran en la clase {@link PR02_Resta }
+                     * Las pruebas de esa clase se realizaran en {@link PR02_RestaTest}
+                     */
 
                     System.out.println("Indica el segundo operando");
                     System.out.print("> ");
@@ -92,14 +114,21 @@ public class PR02_Calculadora {
                     System.out.println("Okay, vamos a MULTIPLICAR");
                     PR02_Multiplicacion Multiplicacion = new PR02_Multiplicacion();
 
-
+                    /**
+                     * @param operando1 El primer operando que el usuario introdujo en la multiplicacion
+                     */
 
                     System.out.println("Indica el primer operando");
                     System.out.print("> ");
                     operando1 = pide.nextDouble();
                     Multiplicacion.setOperando1(operando1);
 
-
+                    /**
+                     * @param operando2 El segundo operando que el usuario introdujo en la multiplicacion
+                     *
+                     * Las multiplicaciones se realizaran en la clase {@link PR02_Multiplicacion }
+                     * Las pruebas de esa clase se realizaran en {@link PR02_MultiplicacionTest}
+                     */
 
                     System.out.println("Indica el segundo operando");
                     System.out.print("> ");
@@ -114,14 +143,21 @@ public class PR02_Calculadora {
                     System.out.println("Okay, vamos a DIVIDIR");
                     PR02_Division Division = new PR02_Division();
 
-
+                    /**
+                     * @param operando1 El primer operando que el usuario introdujo en la division
+                     */
 
                     System.out.println("Indica el primer operando");
                     System.out.print("> ");
                     operando1 = pide.nextDouble();
                     Division.setOperando1(operando1);
 
-
+                    /**
+                     * @param operando2 El segundo operando que el usuario introdujo en la division
+                     *
+                     * Las divisiones se realizaran en la clase {@link PR02_Division }
+                     * Las pruebas de esa clase se realizaran en {@link PR02_DivisionTest}
+                     */
 
 
                     System.out.println("Indica el segundo operando");
